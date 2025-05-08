@@ -2,67 +2,36 @@
 <html lang="sv">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Landningssida Exempel</title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" rel="stylesheet">
-  <style>
-    .hero {
-      height: 100vh;
-      background: url('leopard1.jpg') no-repeat center center;
-      background-size: cover;
-      color: white;
-    }
-  </style>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Landningssida</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body>
 
  
-  <section class="hero d-flex justify-content-center align-items-center text-center p-4">
+  <section class="d-flex justify-content-center align-items-center text-center bg-light py-5" style="height: 100vh;">
     <div>
-      <h1 class="display-4">Välkommen till Leopardens Rike</h1>
-      <p class="lead d-none d-sm-block">En plats där leopardens styrka inspirerar</p>
-      <a href="#info" class="btn btn-primary btn-lg mt-3">Utforska mer</a>
+      <h1 class="mb-3">Välkommen!</h1>
+      <p class="lead mb-4">Denna sida är skapad med Bootstrap.</p>
+      <a href="#" class="btn btn-primary">Läs mer</a>
     </div>
   </section>
 
- 
-  <section id="info" class="container my-5">
-    <div class="row">
-      
-     
-      <div class="col-12 col-sm-12 col-md-6 col-lg-6 order-2 order-md-1 d-flex align-items-center p-4">
-        <div>
-          <h2>Vad Vi Erbjuder</h2>
-          <p>Hos oss får du en spännande inblick i leopardens fascinerande värld. Vi delar kunskap om deras livsstil, jaktteknik och anpassning i naturen. Genom bilder, fakta och upplevelser hjälper vi dig att förstå och uppskatta detta vackra och smidiga rovdjur. Perfekt för både djurälskare och nyfikna upptäckare!</p>
-        </div>
-      </div>
 
-      <div class="col-12 col-sm-12 col-md-6 col-lg-6 order-1 order-md-2 p-4">
-        <img src="leopard.jpg" alt="Exempelbild" class="img-fluid rounded">
-      </div> 
-    </div>
+  <section class="container my-5">
     <div class="row">
-       <div class="col-12 col-sm-12 col-md-6 col-lg-6 d-flex align-items-center p-4">
-        <div>
-          <h2>Det Vi Strävar Efter</h2>
-          <p>
-          Vi strävar efter att öka medvetenheten om leopardens liv och de hot den möter i dagens värld. Genom kunskap, bilder och berättelser vill vi inspirera människor att bry sig om och skydda dessa magnifika djur. Vår vision är en framtid där leoparder lever fritt i sina naturliga miljöer – starka, vilda och beundrade.</p>
-        </div>
+      <div class="col-12 col-md-6 order-md-2 d-none d-md-block">
+        <img src="leopard.jpg" alt="leopard" class="img-fluid w-100">
       </div>
-      <div class="col-12 col-sm-12 col-md-6 col-lg-6 d-none d-md-block p-4">
-        <img src="leopard2.jpg" alt="Exempelbild" class="img-fluid rounded">
+      <div class="col-12 col-md-6 order-md-1 px-3">
+        <h3 class="mb-3">Varför välja oss?</h3>
+        <p class="mb-4">Vi erbjuder moderna webblösningar med fokus på användarvänlighet och prestanda.</p>
+        <h3 class="mb-3">Redo att börja?</h3>
+        <p class="mb-4">Kontakta oss för en skräddarsydd lösning!</p>
+        <a href="#" class="btn btn-success">Kom igång</a>
       </div>
-        </div>
     </div>
   </section>
 
- 
-  <footer class="text-center py-4 bg-light mt-5">
-    <p class="mb-0">© 2025 Leopardens Rike. Användning utan tillstånd förbjuden</p>
-  </footer>
-
-
-  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
